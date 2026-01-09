@@ -43,7 +43,7 @@ function Child({ name }) {
 function CompositionApp() {
   return (
     <Box>
-      <p>Hello </p>
+      <p>Hello Ritu</p>
     </Box>
   );
 }
