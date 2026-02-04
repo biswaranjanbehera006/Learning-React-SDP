@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  background: var(--nav);
+}
+
+.nav a {
+  margin-right: 16px;
+  text-decoration: none;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.nav a.active {
+  color: dodgerblue;
+}
+
+.sub-nav a {
+  margin-right: 12px;
+  color: var(--text);
+}
+
+.content {
+  padding: 20px;
+}
+
+.loader {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.theme-btn {
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
