@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+  background: var(--nav);
+}
+
+.nav a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.nav a.active {
+  color: dodgerblue;
+}
+
+.sub-nav a {
+  margin-right: 10px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.theme-btn {
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.loader {
+  text-align: center;
+  margin-top: 40px;
+}
+.nav a {
+  margin-right: 20px;
+}
