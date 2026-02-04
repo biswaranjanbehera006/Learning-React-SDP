@@ -1,0 +1,21 @@
+:root {
+  --bg: #f7f7f7;
+  --text: #111;
+  --nav: #ffffff;
+  --card: #ffffff;
+}
+
+[data-theme="dark"] {
+  --bg: #0f172a;
+  --text: #e5e7eb;
+  --nav: #020617;
+  --card: #020617;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  transition: background 0.3s, color 0.3s;
+}
