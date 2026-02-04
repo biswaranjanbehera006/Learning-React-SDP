@@ -1,0 +1,12 @@
+.notifications-container li {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: transform 0.2s;
+}
+
+.notifications-container li:hover {
+  transform: translateX(5px);
+}

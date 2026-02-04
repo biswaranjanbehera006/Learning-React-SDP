@@ -1,0 +1,14 @@
+.card {
+  flex: 1 1 250px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  background: linear-gradient(135deg, #4f46e5, #3b82f6);
+  color: white;
+  transition: background 0.3s, color 0.3s;
+}
+
+.card.dark {
+  background: linear-gradient(135deg, #2563eb, #1e3a8a);
+}
