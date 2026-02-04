@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+}
+
+.app-wrapper {
+  padding: 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 30px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .dashboard-container .cards {
+    flex-direction: column;
+  }
+
+  .login-container,
+  .notifications-container,
+  .sprint-demo-container {
+    padding: 15px;
+  }
+}
